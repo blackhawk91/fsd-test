@@ -1,0 +1,32 @@
+.form-wrap {
+    background-color: white;
+    padding: 10px;
+    border: 1px #ced4da solid;
+    margin: 10px;
+    border-radius: 8px;
+    width: 350px;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.btn-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-content .form-wrap {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+
+.button-wrap {
+    margin: 10px 0;
+}
+
+.page-item.active .page-link {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
